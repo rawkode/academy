@@ -1,0 +1,23 @@
+---
+availability: public
+datetime: '2020-11-09T15:00:00Z'
+title: Bootstrapping Bare Metal | Metal Monday
+youtubeId: uD7856as8_A
+---
+
+Equinix Metal™ is an automated, interconnected, low-latency bare metal-as-a-service, that is available in global locations across Platform Equinix®. We enable digital businesses to more quickly be at the center of the customers, suppliers, and partners with whom they want to connect.
+
+🕰 Timeline
+
+00:00 - Introductions
+02:40 - Provisioning and bootstrapping a server with Ansible
+10:30 - Provisioning with Pulumi / bootstrapping with SaltStack
+14:30 - Confirming Ansible worked
+15:00 - Confirming SaltStack worked
+19:00 - Provisioning with Terraform / bootstrapping with cloud-init
+22:20 - Confirming more SaltStack
+28:20 - Confirming cloud-init
+
+🌎 Resources
+
+Equinix Metal - https://metal.equinix.com

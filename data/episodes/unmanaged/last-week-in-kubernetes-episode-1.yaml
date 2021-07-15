@@ -1,0 +1,16 @@
+---
+availability: public
+datetime: ''
+title: 'Last Week in Kubernetes: Episode #1'
+youtubeId: ebei2vbn2o8
+---
+
+In this episode I show off 2 new features of kubectl:
+
+1. Following the logs of multiple pods using labels
+2. Deploying Kustomize directories with kubectl
+
+Kustomize: https://github.com/kubernetes-sigs/kustomize
+It's many PRs: https://github.com/kubernetes/kubernetes/pulls?utf8=%E2%9C%93&q=is%3Apr+kustomize
+
+Logs PR: https://github.com/kubernetes/kubernetes/pull/67573

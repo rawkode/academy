@@ -1,0 +1,28 @@
+---
+availability: public
+datetime: '2020-11-16T15:00:00Z'
+title: High Availability with BGP | Metal Monday
+youtubeId: ku786TprTD8
+---
+
+Equinix Metal™ is an automated, interconnected, low-latency bare metal-as-a-service, that is available in global locations across Platform Equinix®. We enable digital businesses to more quickly be at the center of the customers, suppliers, and partners with whom they want to connect.
+
+🕰 Timeline
+
+00:00 - Holding
+00:35 - Introductions
+01:30 - Bare Metal Problems / Plan
+02:40 - What is BGP?
+06:50 - Spinning up nginx servers
+09:45 - Spinning up haproxy/bird servers
+15:20 - Configuring haproxy to load balance nginx
+24:00 - Enabling BGP
+27:50 - Configuring bird
+
+🌎 Resources
+
+Equinix Metal - https://metal.equinix.com
+Dan Finneran - https://twitter.com/thebsdbox
+David McKay - https://twitter.com/rawkode
+Jeremy Tanner - https://twitter.com/penguin
+Thom Crowe - https://twitter.com/thomcrowe

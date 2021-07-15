@@ -1,0 +1,8 @@
+---
+availability: public
+datetime: ''
+title: GitOps Alerting with InfluxDB, Flux, and Kubernetes
+youtubeId: 9GJNmMcRgJQ
+---
+
+In this stream, I show how to monitor for "unmanaged" pods running on Kubernetes and send alerts to a HTTP API (Which could be Slack) to notify your team that something "snuck" into your cluster.

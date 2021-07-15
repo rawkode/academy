@@ -1,0 +1,31 @@
+---
+availability: public
+datetime: '2020-08-14T16:35:00Z'
+title: Playing with QuestDB on Kubernetes (RTFM with Rawkode)
+youtubeId: EFpZzgj8EfE
+---
+
+In this episode, I am joined by my friend and former colleague, David Simmons; whom is currently the Head of Developer Relations for QuestDB. We deploy QuestDB to Kubernetes, using the Helm Chart I built, and kick the tyres a little as David introduces me to the cool features of QuestDB.
+
+🕰.   Timeline
+
+00:00 - Holding screen
+01:55 - Introductions
+04:00 - Going over the Helm Chart
+08:45 - I finally got it installed after realising I was in the wrong directory
+09:25 - Playing with the QuestDB UI
+12:00 - Installing and configuring Telegraf to write to QuestDB with the TCP/UDP socket writer
+14:45 - Playing with the QuestDB query language
+27:00 - Querying billions of records in milliseconds with try.questdb.io PUBLIC dataset 🤯
+44:00 - Chat and finish
+
+💁🏻‍♂️    Want some help?
+
+💬  Leave a comment
+🐦  Ping me on Twitter - https://twitter.com/rawkode
+📆  Schedule some time during my office-hours - https://rawko.de/office-hours
+
+🌎    Links
+
+David Simmons - https://twitter.com/davidgsiot
+QuestDB - https://questdb.io/

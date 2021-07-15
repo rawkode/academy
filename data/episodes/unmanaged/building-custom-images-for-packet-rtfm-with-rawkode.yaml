@@ -1,0 +1,32 @@
+---
+availability: public
+datetime: '2020-08-06T13:15:00Z'
+title: Building Custom Images for Packet (RTFM with Rawkode)
+youtubeId: IWt_uHk9dMg
+---
+
+In this episode, I attempt (and kind of succeed) at building a custom OS image for deployment on Packet.
+
+In the end, the custom image didn't work. It turned out that this was an error on the Packet side, and not mine! Following these steps now should work 😀
+
+🕰    Timeline
+
+00:00 - Holding screen
+04:20 - Introductions
+07:00 - Creating a new server on Packet
+08:00 - What is user-data?
+09:40 - What are custom images?
+10:00 - Installing git-lfs
+12:00 - Install Packet helper scripts
+15:00 - Fumbling like a looney and trying to build a custom image with Docker for 40 minutes
+
+💁🏻‍♂️    Want some help?
+
+💬  Leave a comment
+🐦  Ping me on Twitter - https://twitter.com/rawkode
+📆  Schedule some time during my office-hours - https://rawko.de/office-hours
+
+🌎    Links
+
+Packet - https://www.packet.com/
+Packet Custom Image Docs - https://www.packet.com/developers/docs/servers/operating-systems/custom-images/

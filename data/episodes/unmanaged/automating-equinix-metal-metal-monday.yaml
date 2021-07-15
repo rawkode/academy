@@ -1,0 +1,18 @@
+---
+availability: public
+datetime: '2020-11-02T18:00:00Z'
+title: Automating Equinix Metal | Metal Monday
+youtubeId: 8mYdGwLj5dQ
+---
+
+Equinix Metal™ is an automated, interconnected, low-latency bare metal-as-a-service, that is available in global locations across Platform Equinix®. We enable digital businesses to more quickly be at the center of the customers, suppliers, and partners with whom they want to connect.
+
+⏲️ Timeline
+
+00:00 - Holding screen
+00:20 - Introductions
+00:50 - Spinning up bare metal with Pulumi
+23:30 - Spinning up bare metal with Terraform
+30:00 - A quick look at the Ansible approach
+32:10 - Finishing up with Terraform
+37:30 - Closing

@@ -1,0 +1,8 @@
+---
+availability: public
+datetime: ''
+title: InfluxDB & Friends - Home Assistant with Matt Brunt
+youtubeId: B1goDfad9N0
+---
+
+In this video, Matt will introduce us to his Home Assistant setup and how he is using InfluxDB. I will follow up with a few cool Flux tips to get more bang for your buck with Flux and InfluxDB 2

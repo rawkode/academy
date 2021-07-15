@@ -1,0 +1,8 @@
+---
+availability: public
+datetime: ''
+title: 'kube-bisect: Episode 1 (Logs & Kustomize)'
+youtubeId: QHqykl9Eg88
+---
+
+Demo of the latest changes to the Kubernetes log command and the integration of the Kustomize CLI

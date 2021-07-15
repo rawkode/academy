@@ -1,0 +1,16 @@
+---
+availability: public
+datetime: '2020-10-26T17:24:01Z'
+title: Spinning up Equinix Metal | Metal Monday
+youtubeId: 0XTefee6WYg
+---
+
+Equinix Metal™ is an automated, interconnected, low-latency bare metal-as-a-service, that is available in global locations across Platform Equinix®. We enable digital businesses to more quickly be at the center of the customers, suppliers, and partners with whom they want to connect.
+
+⏲️ Timeline
+
+00:00 - Holding screen
+00:30 - Introductions
+02:30 - Spinning up your first server with the console UI
+10:00 - Using the Equinix Metal API
+20:00 - Using the Equinix Metal CLI

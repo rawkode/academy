@@ -1,0 +1,10 @@
+---
+availability: public
+datetime: '2019-10-15T11:41:43Z'
+title: Using Telegraf's Metric Buffer
+youtubeId: yGfUunEIBjU
+---
+
+Quick overview of using Telegraf's metric_buffer_limit configuration option for resiliency.
+
+Telegraf is an agent for metric collection, from the makers of InfuxDB, InfluxData.

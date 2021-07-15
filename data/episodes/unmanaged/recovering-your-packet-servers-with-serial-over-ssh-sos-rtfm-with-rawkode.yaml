@@ -1,0 +1,28 @@
+---
+availability: public
+datetime: '2020-08-18T11:00:00Z'
+title: Recovering Your Packet Servers with Serial Over SSH (SOS) (RTFM with Rawkode)
+youtubeId: O8fRpelmg1k
+---
+
+In this episode, I intentionally break my Packet Linux server in a variety of ways; showing you how to use Packet's Serial over SSH connection and rescue mode to recover from some common problems.
+
+🕰.   Timeline
+
+00:00 - Holding screen
+02:55 - Introduction
+06:20 - Misconfiguring your network interfaces and fixing with SOS
+11:30 - Forgetting your root password and fixing with SOS by modifying the GRUB boot-loader
+19:50 - Losing your SSH keys and fixing with rescue mode
+
+💁🏻‍♂️    Want some help?
+
+💬  Leave a comment
+🐦  Ping me on Twitter - https://twitter.com/rawkode
+📆  Schedule some time during my office-hours - https://rawko.de/office-hours
+
+🌎.   Links
+
+Packet - https://packet.com
+Serial over SSH (SOS) - https://www.packet.com/developers/docs/servers/key-features/sos-serial-over-ssh/
+Rescue Mode - https://www.packet.com/developers/docs/servers/key-features/rescue-mode/

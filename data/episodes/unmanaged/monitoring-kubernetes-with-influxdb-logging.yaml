@@ -1,0 +1,8 @@
+---
+availability: public
+datetime: ''
+title: Monitoring Kubernetes with InfluxDB - Logging
+youtubeId: ufnYFcwp510
+---
+
+Lets learn how we deploy a combination of InfluxDB and Telegraf in-order to monitor a Kubernetes cluster

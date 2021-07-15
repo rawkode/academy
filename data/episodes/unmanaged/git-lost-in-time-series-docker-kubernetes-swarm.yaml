@@ -1,0 +1,8 @@
+---
+availability: public
+datetime: ''
+title: Git Lost in Time Series - Docker, Kubernetes, & Swarm
+youtubeId: jyKQBR8MeJs
+---
+
+Join me as I load the Git history of a major OSS project into #InfluxDB and try to understand the history and health of the project through it's code, contributors, and release cadence

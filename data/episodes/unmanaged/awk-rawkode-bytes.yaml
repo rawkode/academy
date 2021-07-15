@@ -1,0 +1,22 @@
+---
+availability: public
+datetime: ''
+title: awk | Rawkode Bytes
+youtubeId: ayZinx24OFM
+---
+
+This short byte introduces you to awk, a language for working with text on the Unix/Linux command-line. awk allows you to quickly slice, dice, and filter the text from any command, allowing some pretty sweet workflows.
+
+Lets take a look
+
+🕰 Timeline
+
+00:00 - What is awk?
+00:28 - Filtering with awk and regex
+00:48 - Default action: print $0
+00:55 - Printing individual columns
+01:22 - BEGIN blocks and output field separators
+01:38 - Working with /etc/passwd
+02:15 - Field separators
+02:30 - Filtering with awk and numerical comparisons
+02:40 - Standard library: toupper and length

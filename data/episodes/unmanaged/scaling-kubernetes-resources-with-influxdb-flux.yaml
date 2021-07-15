@@ -1,0 +1,12 @@
+---
+availability: public
+datetime: ''
+title: Scaling Kubernetes Resources with InfluxDB & Flux
+youtubeId: CkSFrn_qYws
+---
+
+This video is a demonstration of using Zalando's Metrics Adapter and custom metrics to initiative scaling through annotations on the HorizontalPodAutoscaler (HPA) resource. The annotations contain a Flux query that allows fetching metrics from InfluxDB to determine if a resource should be scaled.
+
+Links:
+- https://gitlab.com/rawkode/influxdb-examples
+- https://github.com/zalando-incubator/kube-metrics-adapter/

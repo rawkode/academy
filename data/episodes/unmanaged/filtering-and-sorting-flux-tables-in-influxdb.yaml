@@ -1,0 +1,10 @@
+---
+availability: public
+datetime: ''
+title: Filtering and Sorting Flux Tables in InfluxDB
+youtubeId: 9B4ioIlNGMk
+---
+
+A common question I hear from people adopting and using InfluxDB 2 is "How do I sort my data?". Due to the way that Flux returns data, as a series of tables, it can be frustrating that your sort doesn't behave in an intuitive way.
+
+Lets break this down.

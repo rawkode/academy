@@ -1,0 +1,19 @@
+---
+availability: public
+datetime: ''
+title: Monitoring with InfluxDB - Docker Swarm
+youtubeId: _wPvn0eEO3M
+---
+
+Learn to monitor your favourite applications with InfluxDB.
+
+Today, we're taking a look at Docker Swarm.
+
+I hope you enjoy!
+
+Interesting things covered in this video:
+
+- Pkger: Using community templates with InfluxDB 2
+- Aggregations: Using Flux Tasks to aggregate / downsample data
+- Alerts & Notifications, threshold and deadman alerts
+- Flux tables and query language

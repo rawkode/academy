@@ -1,0 +1,30 @@
+---
+availability: public
+datetime: '2020-11-16T17:00:00Z'
+title: Automating Equinix Metal with Pulumi | Rawkode Live
+youtubeId: GbLMQslgtGY
+---
+
+Pulumi is an open source infrastructure as code tool for creating, deploying, and managing cloud infrastructure. Pulumi works with traditional infrastructure like VMs, networks, and databases, in addition to modern architectures, including containers, Kubernetes clusters, and serverless functions. Pulumi supports dozens of public, private, and hybrid cloud service providers.
+
+By using familiar languages for infrastructure as code, you get many benefits: IDEs, abstractions including functions, classes, and packages, existing debugging and testing tools, and more. The result is greater productivity with far less copy and paste, and it works the same way no matter which cloud you're targeting.
+
+Other approaches use YAML, JSON, or proprietary domain-specific languages (DSLs) that you need to master and train your team to use. These alternative approaches reinvent familiar concepts like sharing and reuse, don't tap into existing ecosystems, and are often different for every cloud that you need to target.
+
+Pulumi is open source, extensible, and is backed by a growing community of cloud practitioners. Benefit from reusable libraries for common architectures, or share your own. Languages and clouds are supported using an extensible plugin model, enabling public, private, and even hybrid cloud support.
+
+🕰 Timeline
+
+00:00 - Holding screen
+00:30 - Introductions
+04:10 - What is Pulumi?
+05:20 - What are we going to do?
+09:00 - Creating some Equinix Metal with Pulumi
+25:00 - Building an embedded CLI with Pulumi's automation API
+
+🌎 Resources
+
+@rawkode | David McKay - https://twitter.com/rawkode
+@briggsl | Lee Briggs - https://twitter.com/briggsl
+@stack72 | Paul Stack - https://twitter.com/stack72
+Pulumi - https://pulumi.com

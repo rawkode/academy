@@ -1,0 +1,8 @@
+---
+availability: public
+datetime: ''
+title: Failed Attempt at Integrating Relational Data Sqlite with InfluxDB & Flux
+youtubeId: FhBvNvksVAE
+---
+
+In this video, I (unsuccessfully) try to incorporate Sqlite data into my InfluxDB queries

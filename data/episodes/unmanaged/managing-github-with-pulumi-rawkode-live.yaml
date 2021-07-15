@@ -1,0 +1,56 @@
+---
+availability: public
+datetime: '2020-08-04T14:00:00Z'
+title: Managing GitHub with Pulumi | Rawkode Live
+youtubeId: FoBcxawkkzc
+---
+
+In this episode, I introduce and walk my colleague, Gianluca Arbezzano, through automating his GitHub organizations, repositories, and labels using Pulumi and TypeScript.
+
+
+🍿 Rawkode Live
+
+Hosted by David McKay / 🐦 https://twitter.com/rawkode
+Website: https://rawkode.live
+Discord Chat: https://rawkode.live/chat
+
+#RawkodeLive
+
+🕰 Timeline
+
+00:00 - Holding screen
+06:45 - Introductions
+07:00 - Context: Explain what we're trying to do
+11:00 - Creating a new Pulumi TypeScript project
+16:00 - Adding the GitHub provider
+17:30 - Creating a GitHub repository
+20:15 - Exporting values for re-use (Terraform outputs)
+21:30 - Running `pulumi up` for the first time
+31:50 - Refactoring / Why I love using real programming languages for Infrastructure as Code (IaaC)
+34:00 - Creating GitHub labels
+45:00 - Questions
+47:30 - Using mustache from NPM for rendering user data scripts with Pulumi and TypeScript
+
+👥 About the Guests
+
+Gianluca Arbezzano,
+
+Staff Software Engineer at Equinix Metal
+
+🐦 https://twitter.com/gianarb
+🧩 https://github.com/gianarb
+🌏 https://gianarb.it/
+
+
+🔨 About the Technologies
+
+Pulumi
+
+Pulumi's Infrastructure as Code SDK is the easiest way to create and deploy cloud software that use containers, serverless functions, hosted services, and infrastructure, on any cloud.
+Simply write code in your favorite language and Pulumi automatically provisions and manages your AWS, Azure, Google Cloud Platform, and/or Kubernetes resources, using an infrastructure-as-code approach. Skip the YAML, and use standard language features like loops, functions, classes, and package management that you already know and love.
+
+🌏 https://pulumi.com/
+🐦 https://twitter.com/PulumiCorp
+🧩 https://github.com/pulumi/pulumi
+
+#Infrastructure #Automation #Cloud
