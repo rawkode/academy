@@ -1,0 +1,36 @@
+name: Publish Data
+on:
+  push:
+    paths:
+      - .github/workflows/publish-data.yaml
+      - data/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: CueBlox
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build & Validate Blox Data
+        id: build
+        uses: cueblox/github-action@v0.0.9
+
+      - uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "blox"
+          prerelease: true
+          title: "CueBlox Data"
+          files: |
+            _build/data.json
+
+      - name: Publish
+        uses: netlify/actions/build@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_BASE: websites/api.rawkode.academy
+          NETLIFY_CMD: npm build
+          NETLIFY_DIR: site/_build

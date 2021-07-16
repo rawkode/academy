@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "API",
+  "main": "index.js",
+  "author": "David McKay <david@rawkode.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "glob": "^7.1.6",
+    "json-graphql-server": "^2.2.0",
+    "node-fetch": "^2.6.1",
+    "serverless-http": "2.7.0"
+  }
+}
