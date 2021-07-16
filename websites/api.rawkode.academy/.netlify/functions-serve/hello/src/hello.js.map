@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../../Users/rawkode/Code/src/github.com/rawkode/academy/websites/api.rawkode.academy/functions/hello.js"],
-  "sourceRoot": "/var/folders/gd/6c30_ths6gj74z17dbyq1xcc0000gn/T/tmp-33909-K22dK18zSoJy",
-  "sourcesContent": ["exports.handler = function (event, context, callback) {\n  callback(null, {\n    statusCode: 200,\n    body: \"Hello, World\",\n  });\n};\n"],
-  "mappings": ";AAAA,QAAQ,UAAU,SAAU,OAAO,SAAS,UAAU;AACpD,WAAS,MAAM;AAAA,IACb,YAAY;AAAA,IACZ,MAAM;AAAA;AAAA;",
-  "names": []
-}
