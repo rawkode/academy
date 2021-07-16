@@ -9,7 +9,7 @@
     "express": "4.17.1",
     "glob": "^7.1.6",
     "json-graphql-server": "^2.2.0",
-    "node-fetch": "^2.6.1",
-    "serverless-http": "2.7.0"
+    "serverless-http": "2.7.0",
+    "sync-fetch": "^0.3.0"
   }
 }

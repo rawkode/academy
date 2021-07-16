@@ -1,19 +1,19 @@
 "use strict";
 
-const express = require("express");
-const jsonGraphqlExpress = require("json-graphql-server").default;
-const serverless = require("serverless-http");
-const fetch = require("node-fetch");
+const fetch = require("sync-fetch");
 
-module.exports.handler = async (event, context) => {
-  const app = express();
+import jsonGraphqlExpress from "json-graphql-server";
 
-  const data = await fetch(
-    "https://github.com/rawkode/rawkode/releases/download/blox/data.json"
-  ).then((result) => result.json());
+const data = fetch(
+  "https://github.com/rawkode/rawkode/releases/download/blox/data.json"
+).json();
 
-  console.log(data);
-  app.use("/", jsonGraphqlExpress(data));
+const app = require("express")();
 
-  return await serverless(app)(event, context);
-};
+app.use("/", jsonGraphqlExpress(data));
+
+const port = process.env.PORT || 3000;
+
+module.exports = app.listen(port, () =>
+  console.log(`Server running on ${port}, http://localhost:${port}`)
+);
